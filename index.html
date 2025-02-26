@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>간단한 웹페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: blue;
+            font-size: 18px;
+        }
+    </style>
+    <script>
+        function showQuote() {
+            alert("행복은 우리가 하는 일에서 오지 않고, 우리가 그것을 대하는 태도에서 온다. - 알버트 슈바이처");
+        }
+    </script>
+</head>
+<body>
+    <h1>안녕하세요!</h1>
+    <p>이것은 간단한 HTML 웹페이지입니다.</p>
+    <img src="baseball_player.jpg" alt="야구 선수" width="300">
+    <img src="cheerleader.jpg" alt="치어리더" width="300">
+    <nav>
+        <a href="#" onclick="showQuote()">페이지 1</a>
+    </nav>
+</body>
+</html>
